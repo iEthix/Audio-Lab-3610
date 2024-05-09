@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Boogaloo&family=Crete+Round:ital@0;1&family=Damion&family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+    <title>Farm Animal Sounds</title>
+  </head>
+  <body>
+    <audio id="cow-sound" src="cow-shortened.wav"></audio>
+    <audio id="chicken-sound" src="chicken-shortened.wav"></audio>
+    <audio id="sheep-sound" src="sheep-shortened.mp3"></audio>
+    <audio id="pig-sound" src="pig-sound.mp3"></audio>
+    <audio id="donkey-sound" src="donkey-sound.wav"></audio>
+    <audio id="horse-sound" src="horse-sound.mp3"></audio>
+    <div class="buttons-container">
+      <div class="buttons-title">
+        <h1>Farm Animal Sounds</h1>
+      </div>
+      <div class="buttons1">
+        <button class="cow-sound" onclick="playCowSound()">
+          <img src="cow-farm-animal.jpg" alt="" />
+        </button>
+        <button class="chicken-sound" onclick="playChickenSound()">
+          <img src="chicken.jpg" alt="" />
+        </button>
+        <button class="sheep-sound" onclick="playSheepSound()">
+          <img src="sheep.jpg" alt="" />
+        </button>
+      </div>
+      <div class="buttons2">
+        <button class="pig-sound" onclick="playPigSound()">
+          <img src="pig.jpg" alt="" />
+        </button>
+        <button class="donkey-sound" onclick="playDonkeySound()">
+          <img src="donkey.jpg" alt="" />
+        </button>
+        <button class="horse-sound" onclick="playHorseSound()">
+          <img src="horse.jpg" alt="" />
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
